@@ -1,3 +1,7 @@
+# download xampp acoording to your OS 
+# open phpmyadmin by localhost and create a database for eg: here leave_01 
+# run this file on VScode and see the results on localhost
+
 import mysql.connector
 db= mysql.connector.connect(
     host="localhost", user="root", password="",database='leave_01')
